@@ -1,16 +1,43 @@
-# favorite_places
+# Flutter Native Features App
 
-A new Flutter project.
+This Flutter app utilizes native mobile features such as Location, Camera, and Storage to provide users with a streamlined experience. Below is an outline of the app's functionalities and the associated dependencies:
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+1. **Adding Items**
+   - Users can add items to a list within the app.
+   - Upon clicking the "Add Place" button, a form is submitted.
 
-A few resources to get you started if this is your first Flutter project:
+2. **Location Services**
+   - Users can either capture their current location or select a location on the map.
+   - This functionality is enabled using the `geocoding`, `location`, `flutter_map`, and `latlong2` packages.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. **Camera Integration**
+   - Users can capture photos within the app.
+   - The `image_picker` package is used to enable this feature.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. **Data Storage**
+   - Submitted form data is stored locally on the device.
+   - The `path`, `path_provider`, and `sqflite` packages facilitate efficient storage management.
+
+## Dependencies
+
+- **path**: Provides utilities for working with file and directory paths.
+- **path_provider**: Offers access to commonly used locations on the file system.
+- **sqflite**: Allows interaction with SQLite databases.
+- **image_picker**: Enables image selection from the device's gallery or camera.
+- **geocoding**: Converts addresses into geographic coordinates and vice versa.
+- **location**: Retrieves location data using the device's GPS sensor.
+- **flutter_map**: Renders interactive maps in Flutter.
+- **latlong2**: Provides utilities for handling latitude and longitude coordinates.
+
+## Usage
+
+To use this app, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Open the project in your preferred Flutter development environment.
+3. Ensure that all dependencies are installed by running `flutter pub get`.
+4. Build and run the app on your preferred device or emulator.
+
+Feel free to explore the codebase and customize it according to your requirements!
