@@ -30,6 +30,10 @@ This Flutter app utilizes native mobile features such as Location, Camera, and S
 - **location**: Retrieves location data using the device's GPS sensor.
 - **flutter_map**: Renders interactive maps in Flutter.
 - **latlong2**: Provides utilities for handling latitude and longitude coordinates.
+- **flutter_riverpod**: A provider package for Flutter applications that makes state management simple and intuitive.
+- **uuid**: Generates universally unique identifiers (UUIDs) for items within the app.
+- **google_fonts**: Provides access to the entire Google Fonts library for use in Flutter apps.
+
 
 ## Usage
 
